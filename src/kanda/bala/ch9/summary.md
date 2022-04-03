@@ -1,0 +1,1 @@
+Sumantra, the minister of King Dasharatha, details the importance of Sage Rishyasringa and beseeches the king to invite that sage to preside over the contemplated Vedic ritual, for that Sage's entry into any kingdom is auspicious for that land and people.

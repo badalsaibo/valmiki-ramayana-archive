@@ -1,0 +1,1 @@
+Sumantra, the minister continues his narration to his king Dasharatha, about Rishyashringa's arrival at Anga kingdom of King Romapaada and his marriage with Princess Shantha, the daughter of Romapada.
