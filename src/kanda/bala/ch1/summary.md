@@ -1,3 +1,5 @@
+## Summary
+
 Divine sage Narada arrives at the hermitage of Sage Valmiki in order to enlighten him and keep him informed of his duty to author the epic poem Ramayana. In the dialogue between these two sages, Valmiki elicits from Narada about most virtuous person on earth, namely Rama. In this opening chapter, while eulogizing Rama Narada gives an outline of Ramayana, truly highlighting those aspects that are the keynotes in this epic, like virtuosity, generosity, morality, chastity and the like.
 
 Valmiki Ramayana is said to have been composed basing on each of the twenty-four letters of Gayatri Hymn, and a thousand verses are arranged into one book under the caption of each letter. Though that classification, or dividing verses into thousand chapters is unavailable now, the twenty-four verses identified with the 24 letters of Gayatri hymn, called as Gayatri Ramayana, is available and it is given in the endnote of this page. In tune with the scheme of Gayatri, Ramayana starts the first verse with letter ta an auspicious letter.

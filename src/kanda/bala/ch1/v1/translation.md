@@ -1,0 +1,1 @@
+1. dharmaatmaa = virtue-souled one, Valmiki; dharmasamhitam = probity abounding in; tat = that; vastu samagram = essence of the epic, in its entirety; shrutvaa = on hearing; tasya dhiimataH vR^ittam = of that, dexterous [Rama's,] that which has happened; yat = that which is there; [tat = that]; vyaktam bhuuyaH anveSate = that which is known [in detail,] further, searched for.
