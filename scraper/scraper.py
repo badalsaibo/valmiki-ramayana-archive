@@ -1,10 +1,36 @@
 import requests
+import json
 from bs4 import BeautifulSoup
+from pathlib import Path
 
 # URL = 'https://www.valmikiramayan.net/utf8/baala/sarga14/bala_14_prose.htm'
 URL = 'https://www.valmikiramayan.net/utf8/baala/baala_contents.htm'
 
 page = requests.get(URL)
+
+replaceableWords = {
+    'rAma': 'Rama',
+    'vashiSTa': 'Vasishtha',
+    'vashiSTHa': 'Vasishtha',
+    'nArada': 'Narada',
+    'vAlmIki': 'Valmiki',
+    'vAmana': 'Vamana',
+    'vishvamitra': 'Vishvamitra',
+    'vishvAmitra': 'Vishvamitra',
+    'trishanku': 'Trishanku',
+    'janaka': 'Janaka',
+    'shiva': 'Shiva',
+    'ikshvaaku': 'Ikshvaku',
+    'bharata': 'Bharata',
+    'sItha': 'Sita',
+    'vishnu': 'Vishnu',
+    'brahma': 'Brahma',
+    'rAmAyaNa': 'Ramayana',
+    'dasaratha': 'Dasaratha',
+    'tATaka': 'Tataka',
+    'kaartikeya': 'Kaartikeya'
+
+}
 
 
 def getUrlOfProse(chapter):
@@ -13,6 +39,14 @@ def getUrlOfProse(chapter):
 
 def getUrlOfKanda(kanda):
     return f"https://www.valmikiramayan.net/utf8/{kanda}/{kanda}_contents.htm"
+
+
+def cleaner(sentence):
+    newSentence = sentence
+    for key in replaceableWords:
+        # print(key, replaceableWords[key])
+        newSentence = newSentence.replace(key, replaceableWords[key])
+    return newSentence
 
 
 # 1. Get all the tags inside the body element
@@ -34,13 +68,19 @@ balaKanda = []
 
 for index, tr in enumerate(body.find_all('tr')):
     td = tr.find('td')
-    print(index)
     if index == 10:
         continue
     if td:
         splittedName = td.text.strip().split(".")
-        print(splittedName)
         balaKanda.append({"id": splittedName[0], "sarga": splittedName[0],
-                         "chapter": splittedName[0], "title": splittedName[1].strip()})
+                         "chapter": splittedName[0], "title": cleaner(splittedName[1].strip())})
 
-print(balaKanda)
+
+json_object = json.dumps(balaKanda, indent=4)
+
+filePath = Path("../src/kanda/bala/chapters.json")
+filePath.parent.mkdir(parents=True, exist_ok=True)
+
+
+with filePath.open("w") as outfile:
+    outfile.write(json_object)
