@@ -1,0 +1,3 @@
+The ascetic Valmiki inquired Naarada - 'who engaged deeply in austerity and study of Vedas, best among the eloquent and eminent among sages' (as follows:). [1-1-1]
+
+The epic starts with the word auspicious word ta as said in 'takaarovighnanaashakaH', 'takaarosaukhyadaayakaH'...

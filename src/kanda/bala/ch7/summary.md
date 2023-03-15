@@ -1,0 +1,1 @@
+The truthful and upright characters of the ministers of Dasharatha are portrayed, who make the rulership meaningful with their virtuous, skilful and efficient administration. Along with the political ministers, the religious ministry is also portrayed.

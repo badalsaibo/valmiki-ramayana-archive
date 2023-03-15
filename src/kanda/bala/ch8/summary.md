@@ -1,0 +1,1 @@
+Dasharatha decides to perform an elaborate Vedic ritual, called Aswamedha yajna, Horse Ritual, to beget children. He being a considerate king in taking conscience of the courtiers, he discusses this aspect with the Vedic scholars and ministers of his court, beforehand.
