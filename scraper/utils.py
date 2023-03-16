@@ -3,8 +3,8 @@ import json
 from pathlib import Path
 
 
-def getUrlOfProse(chapter):
-    return f"https://www.valmikiramayan.net/utf8/baala/sarga{chapter}/bala_{chapter}_prose.htm"
+def getUrlOfProse(kanda, chapter):
+    return f"https://www.valmikiramayan.net/utf8/baala/sarga{chapter}/{kanda}_{chapter}_prose.htm"
 
 
 def getUrlOfKanda(kanda):
