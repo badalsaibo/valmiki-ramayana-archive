@@ -1,5 +1,12 @@
 [
     {
+        "id": "Book Three - araNya kANDa\n\n\n\n\t\t\t\t\t1 ",
+        "kanda": "aranya",
+        "sarga": "Book Three - araNya kANDa\n\n\n\n\t\t\t\t\t1 ",
+        "chapter": "Book Three - araNya kANDa\n\n\n\n\t\t\t\t\t1 ",
+        "title": "Entering Dandaka Forest\n\nsarga/chapter\n\n\n\n\t\t\t\t\t2"
+    },
+    {
         "id": "1 ",
         "kanda": "aranya",
         "sarga": "1 ",
@@ -11,7 +18,7 @@
         "kanda": "aranya",
         "sarga": "2 ",
         "chapter": "2 ",
-        "title": "Confrontation with Viraadha"
+        "title": "Confrontation with Viradha"
     },
     {
         "id": "3 ",
