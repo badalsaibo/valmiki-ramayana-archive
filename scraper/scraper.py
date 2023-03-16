@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from utils import getUrlOfKanda, dumpAsJson
+from utils import getUrlOfKanda, dumpAsJson, cleaner
 # URL = 'https://www.valmikiramayan.net/utf8/baala/sarga14/bala_14_prose.htm'
 # URL = 'https://www.valmikiramayan.net/utf8/kish/kishkindha_contents.htm'
 
