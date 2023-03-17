@@ -31,9 +31,9 @@ with open('../src/kanda/bala/chapters.json') as json_file:
             if len(pTag.contents) > 0:
                 # print(pTag)
                 if pTag['class'] == ['txt']:
-                    # prose_object['summary'] = cleaner(
+                    # prose_object['overview'] = cleaner(
                     #     pTag.text.strip('\n').replace('\n', ''))
-                    prose_object['summary'] = cleaner(pTag.decode_contents().strip(
+                    prose_object['overview'] = cleaner(pTag.decode_contents().strip(
                         '\n').replace('\n', '').replace('\u00a0', '').replace('\t', ''))
                 if pTag['class'] == ['tat']:
                     prose_content.append(
