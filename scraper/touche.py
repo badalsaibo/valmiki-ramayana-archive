@@ -1,8 +1,5 @@
-import re
-import requests
 import json
-from bs4 import BeautifulSoup
-from utils import getUrlOfProse, cleaner, dumpAsJson
+from utils import dumpAsJson
 
 with open('../src/kanda/bala/chapters.json') as json_file:
 
