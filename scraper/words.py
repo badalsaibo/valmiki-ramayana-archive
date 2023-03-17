@@ -39,6 +39,7 @@ replaceableWords = {
     'Viraadha': 'Viradha',
     'Hanuma': 'Hanuman',
     'ravana': 'Ravana',
-    'raavana': 'Ravana'
+    'raavana': 'Ravana',
+    'karaNa': 'karana'
 
 }
