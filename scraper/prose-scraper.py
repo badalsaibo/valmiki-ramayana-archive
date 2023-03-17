@@ -12,14 +12,15 @@ with open('../src/kanda/bala/chapters.json') as json_file:
         prose_object = {}
         prose_content = []
         URL = getUrlOfProse(x['kanda'], x['sarga'])
-        print(URL)
-        if index == 24:
-            URL = 'https://www.valmikiramayan.net/utf8/baala/sarga25/bala_5F25_prose.htm'
-        if index == 39:
-            URL = 'https://www.valmikiramayan.net/utf8/baala/sarga40/bala_5F40_prose.htm'
+        # Only for bala
+        # if index == 24:
+        #     URL = 'https://www.valmikiramayan.net/utf8/baala/sarga25/bala_5F25_prose.htm'
+        # if index == 39:
+        #     URL = 'https://www.valmikiramayan.net/utf8/baala/sarga40/bala_5F40_prose.htm'
         prose_object['id'] = f"prose-{x['kanda']}-{x['sarga']}"
         prose_object['kanda'] = x['kanda']
         prose_object['sarga'] = x['sarga']
+        prose_object['title'] = x['title']
         prose_object['chapter'] = x['chapter']
         page = requests.get(URL)
         soup = BeautifulSoup(page.content, 'html.parser')
