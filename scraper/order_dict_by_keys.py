@@ -5,7 +5,7 @@ ordered_list = ['id', 'kanda', 'sarga',
                 'title', 'chapter', 'overview', 'content']
 
 
-kanda = 'ayodhya'
+kanda = 'bala'
 
 with open(f'../src/kanda/{kanda}/chapters.json') as json_file:
 

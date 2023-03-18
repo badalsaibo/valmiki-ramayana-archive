@@ -1,7 +1,7 @@
 import json
 from utils import dumpAsJson
 
-kanda = 'ayodhya'
+kanda = 'bala'
 
 with open(f'../src/kanda/{kanda}/chapters.json') as json_file:
 
@@ -9,6 +9,7 @@ with open(f'../src/kanda/{kanda}/chapters.json') as json_file:
 
     for index, x in enumerate(json_data):
         with open(f'../src/kanda/{kanda}/prose/chapter/{x["sarga"]}.json') as chapter_json_fle:
+            print(index)
             chapter_json_list = json.load(chapter_json_fle)
 
             if "overview" in chapter_json_list:
