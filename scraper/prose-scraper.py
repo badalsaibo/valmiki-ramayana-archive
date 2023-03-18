@@ -35,14 +35,14 @@ with open('../src/kanda/aranya/chapters.json') as json_file:
                     if pTag['class'] == ['txt']:
                         # prose_object['overview'] = cleaner(
                         #     pTag.text.strip('\n').replace('\n', ''))
-                        prose_object['overview'] = cleaner(pTag.decode_contents().strip(
+                        prose_object['overview'] = cleaner(pTag.decode_contents(None, 'utf-8', 'html').strip(
                             '\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))
                     if pTag['class'] == ['tat']:
                         prose_content.append(
-                            {'type': 'verse', 'text':  cleaner(pTag.decode_contents().strip('\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))})
+                            {'type': 'verse', 'text':  cleaner(pTag.decode_contents(None, 'utf-8', 'html').strip('\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))})
                     if pTag['class'] == ['comment']:
                         prose_content.append(
-                            {'type': 'commentary', 'text':  cleaner(pTag.decode_contents().strip('\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))})
+                            {'type': 'commentary', 'text':  cleaner(pTag.decode_contents(None, 'utf-8', 'html').strip('\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))})
         except:
             print("Something went wrong")
 
