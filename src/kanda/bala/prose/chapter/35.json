@@ -2,6 +2,7 @@
     "id": "prose-bala-35",
     "kanda": "bala",
     "sarga": "35",
+    "title": "Legend of River Ganga",
     "chapter": "35",
     "overview": "Sage Vishvamitra along with others reach the banks of River Ganga and they make their sojourn on that riverbank. There when Rama inquisitively enquires about River Ganga Vishvamitra narrates the legend of Ganga, as to how she is taken to heavens by gods from her father Himalayas.",
     "content": [
@@ -65,6 +66,5 @@
             "type": "verse",
             "text": "\"As such, that marvellous and sinless daughter of the lordly mountain Himavanta, ever-flowing in the form of water, ascended to the abode of divinities and became <em>deva Ganga</em>, Divine River. "
         }
-    ],
-    "title": "Legend of River Ganga"
+    ]
 }

@@ -2,6 +2,7 @@
     "id": "prose-bala-9",
     "kanda": "bala",
     "sarga": "9",
+    "title": "Legend of Sage Rishyasringa",
     "chapter": "9",
     "overview": "Sumantra, the minister of King Dasharatha, details the importance of Sage Rishyasringa and beseeches the king to invite that sage to preside over the contemplated Vedic ritual, for that Sage's entry into any kingdom is auspicious for that land and people.",
     "content": [
@@ -73,6 +74,5 @@
             "type": "verse",
             "text": "Then King Dasharatha is delighted and in turn spoke to Sumantra \"By what idea Rishyasringa is brought to Anga kingdom, that shall be said...\" "
         }
-    ],
-    "title": "Legend of Sage Rishyasringa"
+    ]
 }
