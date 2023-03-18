@@ -58,76 +58,82 @@
             "text": "\"Once, all the gods were asking the Grandparent, Brahma, as to who is powerful and who is less powerful among the blue-throated Shiva and Vishnu... but the Grandparent Brahma on inferring the intent of gods started to create adversity among those two, Shiva and Vishnu, for the Grandparent is the best adherer of truthfulness, as truth cannot be demonstrated on hearsay evidence..."
         },
         {
-            "type": "verse",
-            "text": "<em>Legend:</em> Brahma thought that it would better to enact a drama to cleanse the one-sided mentalities of these lesser gods. So, he started to write the script, and himself becoming the writer-director of that drama. That script is hereunder."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: Mahadeva, who is the destroyer of Tripura, or say triple-citadels?"
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: Why? It is me, of course..."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: Why do you boast that way of yourself? It is the long-arrow of your longbow, isn't it?"
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: Yes of course..."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: Then Vishnu was presiding deity of that long-bow... isn't t?"
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: Yes, it is he, but I shot it from my bow... basically, is this a confusion, or, are you playing any part of Narada..."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: Not so, the other day Vishnu was telling that he alone did that master task..."
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: How can it be! In the triple of doer-deed-instrument, instrument cannot become the doer... has his language gone topsy-turvy, noun is becoming verb and verb is lost to adjective and..."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: Ok, Ok... we do not care much for grammar as we care more for communication, grammar is paNini's headache... but what he said is that he alone did it... not you..."
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: Then why I am called... why that longbow is given to me... you should have got it done by Vishnu... why calling me... you have unnecessarily spoiled my dance program..."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: Not that... I said what he said... let's not quarrel among ourselves..."
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: I not only quarrel but wage war, if it comes to my interests and my devotees' interest... how many times I have not done so..."
-        },
-        {
-            "type": "verse",
-            "text": "Brahma: That is what Vishnu was telling... every time you give a boon to every demon, and involve yourself in enmeshment, and Vishnu has come to come and rescue... have he forgotten the episode of bhasmaasura... thus Vishnu is saying and asking..."
-        },
-        {
-            "type": "verse",
-            "text": "Shiva: Now I don't tolerate... I will take him to task..."
-        },
-        {
-            "type": "verse",
-            "text": "Exit Shiva - Enter Vishnu. Brahma reverses the above dialogue and says that to Vishnu"
-        },
-        {
-            "type": "verse",
-            "text": "Vishnu: No, No, highly objectionable... I will take him to task... I will take him to task..."
-        },
-        {
-            "type": "verse",
-            "text": "Exit All. War Started."
+            "type": "conceptual",
+            "text": "Legend",
+            "content": [
+                {
+                    "type": "verse",
+                    "text": "<em>Legend:</em> Brahma thought that it would better to enact a drama to cleanse the one-sided mentalities of these lesser gods. So, he started to write the script, and himself becoming the writer-director of that drama. That script is hereunder."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: Mahadeva, who is the destroyer of Tripura, or say triple-citadels?"
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: Why? It is me, of course..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: Why do you boast that way of yourself? It is the long-arrow of your longbow, isn't it?"
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: Yes of course..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: Then Vishnu was presiding deity of that long-bow... isn't t?"
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: Yes, it is he, but I shot it from my bow... basically, is this a confusion, or, are you playing any part of Narada..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: Not so, the other day Vishnu was telling that he alone did that master task..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: How can it be! In the triple of doer-deed-instrument, instrument cannot become the doer... has his language gone topsy-turvy, noun is becoming verb and verb is lost to adjective and..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: Ok, Ok... we do not care much for grammar as we care more for communication, grammar is paNini's headache... but what he said is that he alone did it... not you..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: Then why I am called... why that longbow is given to me... you should have got it done by Vishnu... why calling me... you have unnecessarily spoiled my dance program..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: Not that... I said what he said... let's not quarrel among ourselves..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: I not only quarrel but wage war, if it comes to my interests and my devotees' interest... how many times I have not done so..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Brahma: That is what Vishnu was telling... every time you give a boon to every demon, and involve yourself in enmeshment, and Vishnu has come to come and rescue... have he forgotten the episode of bhasmaasura... thus Vishnu is saying and asking..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Shiva: Now I don't tolerate... I will take him to task..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Exit Shiva - Enter Vishnu. Brahma reverses the above dialogue and says that to Vishnu"
+                },
+                {
+                    "type": "verse",
+                    "text": "Vishnu: No, No, highly objectionable... I will take him to task... I will take him to task..."
+                },
+                {
+                    "type": "verse",
+                    "text": "Exit All. War Started."
+                }
+            ]
         },
         {
             "type": "verse",
@@ -179,7 +185,7 @@
         },
         {
             "type": "commentary",
-            "text": "All the above is for no practical utility in these days, except for an enquiry into that 'Brahman.' So also there is a probability for phonetic problem <font color=\"#B3003A\">uccaraNa doSa</font> in Vedas which causes <font color=\"#B3003A\">pratya vaaya</font> a boomeranging bad effect. If we wish to chant its hymn 'oh, Indra, slay my enemies...' and if a diphthong or a diagraph is mispronounced it becomes 'Oh, Indra, kill me, instead of my enemies...' and it is said to happen that way<font color=\"#B3003A\">yad bhaavam tad bhavati...</font> Unless they are practised for a life time, they are un-understandable, hence they are set aside and Puraana-s are brought in their place. Further, the effect of Vedas is said to be declining according to <font color=\"#B3003A\">yuga dharma</font> era theory... What that was available in <font color=\"#B3003A\">satya yuga</font> a period where the conflict was only between god and man, for e.g., the legend of Hrishcandra and his truth speaking, which stands tested by almost all gods, but that truthfulness is lessened in <font color=\"#B3003A\">treat yuga</font> Ramayana's period, where the conflict was between man and demons, which dharma is further lessened in<font color=\"#B3003A\">dvaapara yuga</font> period of Maha Bharata, where the conflict is among one's own brothers, and that much dharma of that period is almost extinct in <font color=\"#B3003A\">kali yuga</font> which is obvious, from the known history of India, where the conflicts are going on between man and man - husband and wife, father and son, neighbour and neighbour, and so on.<p class=\"comment\">This is on par with the four-legged <font color=\"#B3003A\">dharma</font>, The Holy Bull, <font color=\"#B3003A\">nandi</font> loosing its legs one after the other and now you will see that Bull in any sculpture with half raised right foreleg, where other three went under its belly.</p><p class=\"comment\">So Puraana-s are evolved to throw some light on what Vedas have to say, of course with some religious overtones. Elsewhere we have detailed about Puraana-s of them Shiva and Vishnu Puraana-s are though prominent, but their adherers quarrel tooth and nail about the superiority of Shiva or Vishnu. In Vishnu Puraana many instances of coalescence of Vishnu with Shiva are narrated <em>tvat vaakya gauravaat etat mayaa cakram nivartitam | tvayaa yat abhayam dattam tat datttam akhilam mayaa -</em> Krishna says to Shiva at the time of eliminating a demon called Baana Asura, 'As you say I have taken back my disc, and if you give a boon I deem all that is given by me...' So many instances can be quoted like this. But here Parashu Rama has no intention to kill Dasharatha Rama, as said in Padma Puraana: <em>rarakSha bhagavaan - bhaargava raamaH - ekam ikShvaakostu mahaa kulam | maataamahasya anvayatvaat reNukaa vacanaat tathaa |</em> 'that god Bhaargava Rama safeguarded one great dynasty of Ikshvaku-s, for they are related to his grandmother, besides at the request of Renuka Devi, his mother...' So, god Bhaargava Rama is a nepotist and saved Dasharatha Rama. Not so, Bhaargava Rama is neither a nepotist nor a god to be worshipped. He is not worshipped because his incarnation is not a full incarnation of Vishnu as Dasharatha Rama. Only the wrathful impetuosity of Vishnu is incarnated like Bhaargava Rama to perform butchery and even infanticide. <em>bhaargavo ati dR^iptaH prasiddhaH tadaaniim ca krodha andha iti sva kShatriya vadhaat upratam shastra sannyaasam ca parityajya capala iti viditaH</em> 'Bhaargava Rama is a highly impudent personality and blinded by his wrath, thus to eliminate his own Kshatriya-s [namely his own relatives, Dasharatha and his sons; again the caste system is peeping in, isn't it!] On overstepping his pledge of renunciation of weaponry, he came... hence his actions are faltering...' <font color=\"#B3003A\">appayaa diikshita</font>, a shaivaite. He came here to perform certain unsaid action, which we will see in next episode.</p><p class=\"verloc\">----</p><h4>Thus, this is the 75th chapter in Bala Kanda of Valmiki Ramayana, the First Epic poem of India. </h4><center><p align=\"center\" class=\"smItS\"><font size=\"+0\">\u00a9 May, 2003, Desiraju Hanumannta Rao [Revised : January 05]</font> </p></center><!-- GoFTP Free Version Start --><br><br/><p align=\"center\"><a href=\"http://www.xmediapartners.com\" style=\"font-size:10px; text-decoration:none; color:#CCCCCC;\">             What the world says about        Shiva and Vishnu  </a><br/><a href=\"http://www.goftp.com\" style=\"font-size:10px; text-decoration:none; color:#CCCCCC;\">            File          transported by          FREE Go FTP        Program</a></p><!-- GoFTP Free Version End --></br>"
+            "text": "All the above is for no practical utility in these days, except for an enquiry into that 'Brahman.' So also there is a probability for phonetic problem <font color=\"#B3003A\">uccaraNa doSa</font> in Vedas which causes <font color=\"#B3003A\">pratya vaaya</font> a boomeranging bad effect. If we wish to chant its hymn 'oh, Indra, slay my enemies...' and if a diphthong or a diagraph is mispronounced it becomes 'Oh, Indra, kill me, instead of my enemies...' and it is said to happen that way<font color=\"#B3003A\">yad bhaavam tad bhavati...</font> Unless they are practised for a life time, they are un-understandable, hence they are set aside and Puraana-s are brought in their place. Further, the effect of Vedas is said to be declining according to <font color=\"#B3003A\">yuga dharma</font> era theory... What that was available in <font color=\"#B3003A\">satya yuga</font> a period where the conflict was only between god and man, for e.g., the legend of Hrishcandra and his truth speaking, which stands tested by almost all gods, but that truthfulness is lessened in <font color=\"#B3003A\">treat yuga</font> Ramayana's period, where the conflict was between man and demons, which dharma is further lessened in<font color=\"#B3003A\">dvaapara yuga</font> period of Maha Bharata, where the conflict is among one's own brothers, and that much dharma of that period is almost extinct in <font color=\"#B3003A\">kali yuga</font> which is obvious, from the known history of India, where the conflicts are going on between man and man - husband and wife, father and son, neighbour and neighbour, and so on"
         },
         {
             "type": "commentary",
