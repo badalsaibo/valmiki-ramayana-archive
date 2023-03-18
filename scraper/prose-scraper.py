@@ -4,6 +4,12 @@ import json
 from bs4 import BeautifulSoup
 from utils import getUrlOfProse, cleaner, dumpAsJson
 
+
+def decoder(htmlTag):
+    return cleaner(htmlTag.decode_contents(None, 'utf-8', 'html').strip(
+        '\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))
+
+
 with open('../src/kanda/aranya/chapters.json') as json_file:
     json_data = json.load(json_file)
     # print(json_data)
@@ -33,16 +39,13 @@ with open('../src/kanda/aranya/chapters.json') as json_file:
                     continue
                 if len(pTag.contents) > 0:
                     if pTag['class'] == ['txt']:
-                        # prose_object['overview'] = cleaner(
-                        #     pTag.text.strip('\n').replace('\n', ''))
-                        prose_object['overview'] = cleaner(pTag.decode_contents(None, 'utf-8', 'html').strip(
-                            '\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))
+                        prose_object['overview'] = decoder(pTag)
                     if pTag['class'] == ['tat']:
                         prose_content.append(
-                            {'type': 'verse', 'text':  cleaner(pTag.decode_contents(None, 'utf-8', 'html').strip('\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))})
+                            {'type': 'verse', 'text':  decoder(pTag)})
                     if pTag['class'] == ['comment']:
                         prose_content.append(
-                            {'type': 'commentary', 'text':  cleaner(pTag.decode_contents(None, 'utf-8', 'html').strip('\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))})
+                            {'type': 'commentary', 'text': decoder(pTag)})
         except:
             print("Something went wrong")
 
