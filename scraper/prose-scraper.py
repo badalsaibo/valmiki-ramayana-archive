@@ -10,20 +10,20 @@ def decoder(htmlTag):
         '\n').replace('\n', ' ').replace('\u00a0', ' ').replace('\t', ' '))
 
 
-with open('../src/kanda/aranya/chapters.json') as json_file:
+with open('../src/kanda/kishkindha/chapters.json') as json_file:
     json_data = json.load(json_file)
     # print(json_data)
     for index, x in enumerate(json_data):
-        # if index == 1:
+        # if index == 0:
         prose_object = {}
         prose_content = []
         URL = getUrlOfProse(x['kanda'], x['sarga'])
         print(URL)
         # Only for bala
         if index == 24:
-            URL = 'https://www.valmikiramayan.net/utf8/aranya/sarga25/aranya_5F25_prose.htm'
+            URL = 'https://www.valmikiramayan.net/utf8/kish/sarga25/kishkindha_5F25_prose.htm'
         if index == 39:
-            URL = 'https://www.valmikiramayan.net/utf8/aranya/sarga40/aranya_5F40_prose.htm'
+            URL = 'https://www.valmikiramayan.net/utf8/kish/sarga40/kishkindha_5F40_prose.htm'
         prose_object['id'] = f"prose-{x['kanda']}-{x['sarga']}"
         prose_object['kanda'] = x['kanda']
         prose_object['sarga'] = x['sarga']
@@ -55,4 +55,4 @@ with open('../src/kanda/aranya/chapters.json') as json_file:
         print(x['sarga'])
 
         dumpAsJson(
-            prose_object, f"../src/kanda/aranya/prose/chapter/{x['sarga']}.json")
+            prose_object, f"../src/kanda/kishkindha/prose/chapter/{x['sarga']}.json")
