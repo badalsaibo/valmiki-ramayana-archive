@@ -1,3 +1,5 @@
+# helper function to add missing overview section on some chapters
+
 import json
 from utils import dumpAsJson
 

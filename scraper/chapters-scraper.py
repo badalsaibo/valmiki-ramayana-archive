@@ -22,11 +22,6 @@ soup = BeautifulSoup(page.content, 'html.parser')
 
 body = soup.find('body')
 
-# for pTag in body.find_all('p', recursive=False):
-
-#     if pTag['class'] == ['tat']:
-#         print(pTag)
-
 chaptersList = []
 
 for index, tr in enumerate(body.find_all('tr')):
